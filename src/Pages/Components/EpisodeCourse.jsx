@@ -12,6 +12,7 @@ const EpisodeCourse = ({ episodes, courses, user }) => {
       setStatus(checkTransaction.message);
     }
   };
+  console.log(status)
 
   useEffect(() => {
     handleCheckTransaction();
