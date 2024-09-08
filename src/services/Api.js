@@ -3,7 +3,7 @@ import axios from 'axios'
 const Api = axios.create({
     
     //set endpoint API
-    baseURL: 'https://8a7a80740c975d.lhr.life/api',
+    baseURL: 'http://localhost:8080/api',
 
     //set header axios
     headers: {
